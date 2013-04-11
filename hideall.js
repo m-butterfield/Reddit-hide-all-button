@@ -1,5 +1,5 @@
 /*
- * Adds button to the top of reddit that hides ALL links 
+ * Adds button to the top menu of reddit that hides ALL links 
  */
 
 // only add the button if there are links to hide
