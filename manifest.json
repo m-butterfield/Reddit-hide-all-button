@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "reddit hide-all button",
+  "description": "adds a 'hide all' button to reddit.com",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/*"],
+      "js": ["hideall.js"]
+    }
+  ] 
+}
